@@ -14,5 +14,5 @@ public class baihoc {
         int tong = toan + ly + hoa;
         System.out.println(" tong diem:"+tong);
 
-}
+    }
 }
