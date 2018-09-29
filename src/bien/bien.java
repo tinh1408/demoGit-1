@@ -9,7 +9,7 @@ public class bien {
         //Biến c kiểu ký tự, có giá trị là 'a'
         //Biến s kiểu chuỗi, có giá trị là "Hà Nội".
         int i = 10;
-        float f = (float) 20.5;
+        float f = (float) 20.5; // ở đây biến f đã là kiểu float nên em ko cần ép về kiểu float nữa mà khai báo như sau: float f = 20.5f;
         double d = 20.5;
         boolean b = true;
         char c ='a';
@@ -20,6 +20,8 @@ public class bien {
         System.out.println("kieu logic:" +b);
         System.out.println("kieu ky tu:" +c);
         System.out.println("kieu chuoi:" +s);
+        
+        // Lưu ý đặt tên biến phải tường minh nhé, ví dụ String s = "Hà Nội" thì đặt lại là String thanhPho = "Hà Nội";
 
     }
 }
