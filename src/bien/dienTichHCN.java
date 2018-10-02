@@ -9,7 +9,7 @@ public class dienTichHCN {
         float chieudai = scanner.nextFloat();
         System.out.println("nhap vao chieu rong:");
         float chieurong = scanner.nextFloat();
-        float dienTich = chieudai * chieurong ;
+        float dienTich = chieudai * chieurong ; // Biến chiều dài và chiều rộng em nên đặt là : chieuDai, chieuRong để theo đúng quy tắc em nha
         System.out.println("dien tich:" +dienTich);
     }
 }
