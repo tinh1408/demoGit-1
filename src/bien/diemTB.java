@@ -10,7 +10,8 @@ public class diemTB {
         float diemLy = scanner.nextFloat();
         System.out.println("nhap vao diem hoa:");
         float diemHoa = scanner.nextFloat();
-
+        // Bài này em làm đúng rồi nhưng giả sử anh có yêu cầu mới như này
+        // Kiểm tra điểm toán lý hóa, nếu người dùng nhập sai thì phải nhập lại rồi mới tính
         if(((diemHoa >=0) && (diemHoa <=10))&&((diemLy >=0) && (diemLy <=10))&&((diemToan >=0) && (diemToan <=10))) {
             float diemTB = (diemHoa + diemLy + diemToan) / 3;
             System.out.println("nhap vao diem trung binh:" + diemTB);
